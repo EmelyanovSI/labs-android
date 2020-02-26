@@ -95,7 +95,7 @@ local.properties
 .scala_dependencies
 .worksheet
 
-### Eclipse Patch ###
+# Eclipse Patch
 # Eclipse Core
 .project
 
@@ -461,14 +461,14 @@ MigrationBackup/
 
 ### Xcode ###
 
-## User settings
+# User settings
 xcuserdata/
 
-## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
+# compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
 *.xcscmblueprint
 *.xccheckout
 
-## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
+# compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
 build/
 DerivedData/
 *.moved-aside
@@ -481,14 +481,12 @@ DerivedData/
 *.perspectivev3
 !default.perspectivev3
 
-## Xcode Patch
+# Xcode Patch
 *.xcodeproj/*
 !*.xcodeproj/project.pbxproj
 !*.xcodeproj/xcshareddata/
 !*.xcworkspace/contents.xcworkspacedata
 /*.gcno
-
-### Xcode Patch ###
 **/xcshareddata/WorkspaceSettings.xcsettings
 
 ### CodeBlocks ###
