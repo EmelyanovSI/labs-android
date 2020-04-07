@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello_world">Привет мир!</string>
     <string name="app_name">лабы-андроид</string>
+    <string name="home_fragment">Главный Фрагмент</string>
+    <string name="laboratory_work">Лабораторная работа</string>
+    <string name="android">Андроид</string>
+    <string name="item">Пункт</string>
+    <string name="lab">Лаб</string>
 </resources>

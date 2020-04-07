@@ -1,4 +1,21 @@
 <resources>
     <string name="app_name">labs-android</string>
-    <string name="hello_world">Hello World!</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="laboratory_work">Laboratory work</string>
+    <string name="item">Item</string>
+    <string name="lab">Lab</string>
+    <string name="android">Android</string>
+
+    <string-array name="lab_title">
+        <item>Alert Dialogues</item>
+        <item>Animations</item>
+        <item>Audio Capture</item>
+        <item>AudioManager</item>
+        <item>Auto Complete</item>
+        <item>Best Practices</item>
+        <item>Bluetooth</item>
+        <item>Camera</item>
+        <item>Clipboard</item>
+        <item>Custom Fonts</item>
+    </string-array>
 </resources>
