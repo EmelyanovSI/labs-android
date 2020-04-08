@@ -1,17 +1,25 @@
 <resources>
     <string name="app_name">labs-android</string>
+    <string name="some_text">Some text</string>
     <string name="home_fragment">Home Fragment</string>
     <string name="laboratory_work">Laboratory work</string>
+    <string name="android">Android</string>
     <string name="item">Item</string>
     <string name="lab">Lab</string>
-    <string name="android">Android</string>
-    <string name="planet">Planet</string>
     <string name="button">Button</string>
-    <string name="you_clicked">You clicked</string>
-    <string name="some_text">Some text</string>
+
     <string name="yes">Yes</string>
     <string name="no">No</string>
+    <string name="planet">Planet</string>
+    <string name="you_clicked">You clicked</string>
     <string name="text_decision">Are you sure, you want to make decision?</string>
+
+    <string name="zoom">Zoom</string>
+    <string name="clockwise">Clockwise</string>
+    <string name="fade">Fade</string>
+    <string name="blink">Blink</string>
+    <string name="move">Move</string>
+    <string name="slide">Slide</string>
 
     <string-array name="lab_title">
         <item>Alert Dialog</item>
