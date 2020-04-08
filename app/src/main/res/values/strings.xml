@@ -21,6 +21,15 @@
     <string name="move">Move</string>
     <string name="slide">Slide</string>
 
+    <string name="record">Record</string>
+    <string name="stop">Stop</string>
+    <string name="play">Play</string>
+    <string name="stop_playing_recording">Stop playing recording</string>
+    <string name="recording_started">Recording started</string>
+    <string name="recording_completed">Recording completed</string>
+    <string name="recording_playing">Recording playing</string>
+    <string name="permission_is_not_granted">Permission is not granted</string>
+
     <string-array name="lab_title">
         <item>Alert Dialog</item>
         <item>Animations</item>

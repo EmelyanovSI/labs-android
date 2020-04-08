@@ -19,4 +19,12 @@
     <string name="blink">Мигание</string>
     <string name="move">Передвижение</string>
     <string name="slide">Скольжение</string>
+    <string name="record">Запись</string>
+    <string name="stop">Стоп</string>
+    <string name="play">Воспроизвести</string>
+    <string name="stop_playing_recording">Остановить воспроизведение записи</string>
+    <string name="recording_started">Запись началась</string>
+    <string name="recording_completed">Запись завершена</string>
+    <string name="recording_playing">Запись играет</string>
+    <string name="permission_is_not_granted">Разрешение не предоставлено</string>
 </resources>

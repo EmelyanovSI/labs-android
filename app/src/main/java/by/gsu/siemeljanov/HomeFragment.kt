@@ -48,7 +48,6 @@ class HomeFragment : Fragment(), OnListItemClickListener {
     }
 
     override fun onItemClick(item: ListItem, position: Int) {
-        Toast.makeText(context, item.title, Toast.LENGTH_SHORT).show()
         fragmentManager?.beginTransaction()
             ?.replace(R.id.fragment_container, fragments[item.number.toInt()])
             ?.addToBackStack(null)
