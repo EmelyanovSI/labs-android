@@ -30,6 +30,12 @@
     <string name="recording_playing">Recording playing</string>
     <string name="permission_is_not_granted">Permission is not granted</string>
 
+    <string name="mode">Mode</string>
+    <string name="ring">Ring</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="silent">Silent</string>
+    <string name="now_in">Now in</string>
+
     <string-array name="lab_title">
         <item>Alert Dialog</item>
         <item>Animations</item>

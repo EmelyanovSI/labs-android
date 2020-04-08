@@ -27,4 +27,9 @@
     <string name="recording_completed">Запись завершена</string>
     <string name="recording_playing">Запись играет</string>
     <string name="permission_is_not_granted">Разрешение не предоставлено</string>
+    <string name="mode">Режим</string>
+    <string name="ring">Звон</string>
+    <string name="vibrate">Вибрировать</string>
+    <string name="silent">Бесшумный</string>
+    <string name="now_in">Сейчас</string>
 </resources>
