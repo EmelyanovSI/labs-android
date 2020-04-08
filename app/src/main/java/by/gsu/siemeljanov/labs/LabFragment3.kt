@@ -39,7 +39,6 @@ class LabFragment3(private val lab: ListItem) : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         text1.text = lab.title
-        text2.text = getString(R.string.laboratory_work)
         button2.isEnabled = false
         button3.isEnabled = false
         button4.isEnabled = false

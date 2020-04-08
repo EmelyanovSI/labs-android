@@ -27,7 +27,6 @@ class LabFragment2(private val lab: ListItem) : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         text1.text = lab.title
-        text2.text = getString(R.string.laboratory_work)
 
         val zoom = AnimationUtils.loadAnimation(context, R.anim.zoom)
         val clockwise = AnimationUtils.loadAnimation(context, R.anim.clockwise)

@@ -34,7 +34,6 @@ class LabFragment4(private val lab: ListItem) : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         text1.text = lab.title
-        text2.text = getString(R.string.laboratory_work)
         button2.isEnabled = false
         if (checkPermission()) {
             myAudioManager = activity?.getSystemService(Context.AUDIO_SERVICE) as AudioManager

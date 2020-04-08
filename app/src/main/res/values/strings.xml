@@ -36,6 +36,9 @@
     <string name="silent">Silent</string>
     <string name="now_in">Now in</string>
 
+    <string name="text_view" translatable="false">TextView</string>
+    <string name="multi" translatable="false">Multi</string>
+
     <string-array name="lab_title">
         <item>Alert Dialog</item>
         <item>Animations</item>

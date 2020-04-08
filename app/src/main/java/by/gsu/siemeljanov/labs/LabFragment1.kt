@@ -28,7 +28,6 @@ class LabFragment1(private val lab: ListItem) : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         text1.text = lab.title
-        text2.text = getString(R.string.laboratory_work)
         button.text = lab.title
         button.setOnClickListener {
             Dialog().show(fragmentManager!!, null)

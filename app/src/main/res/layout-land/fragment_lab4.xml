@@ -21,15 +21,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/spacing_small"
-        android:text="@string/some_text"
+        android:text="@string/laboratory_work"
         app:layout_constraintEnd_toEndOf="@+id/text1"
         app:layout_constraintStart_toStartOf="@+id/text1"
         app:layout_constraintTop_toBottomOf="@+id/text1" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="@dimen/no_spacing"
-        android:layout_height="@dimen/spacing_260"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:contentDescription="@string/planet"
         android:src="@drawable/code"
         app:layout_constraintBottom_toBottomOf="parent"
