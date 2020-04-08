@@ -5,9 +5,16 @@
     <string name="item">Item</string>
     <string name="lab">Lab</string>
     <string name="android">Android</string>
+    <string name="planet">Planet</string>
+    <string name="button">Button</string>
+    <string name="you_clicked">You clicked</string>
+    <string name="some_text">Some text</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="text_decision">Are you sure, you want to make decision?</string>
 
     <string-array name="lab_title">
-        <item>Alert Dialogues</item>
+        <item>Alert Dialog</item>
         <item>Animations</item>
         <item>Audio Capture</item>
         <item>AudioManager</item>

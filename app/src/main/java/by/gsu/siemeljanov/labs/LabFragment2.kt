@@ -6,19 +6,25 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import by.gsu.siemeljanov.R
-import kotlinx.android.synthetic.main.fragment_lab1.*
+import by.gsu.siemeljanov.model.ListItem
+import kotlinx.android.synthetic.main.fragment_lab2.*
 
-class Lab10Fragment : Fragment() {
+class LabFragment2(private val lab: ListItem) : Fragment() {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        retainInstance = true
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_lab10, container, false)
+        return inflater.inflate(R.layout.fragment_lab2, container, false)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        text.text = resources.getStringArray(R.array.lab_title)[9]
+        text.text = lab.title
     }
 }

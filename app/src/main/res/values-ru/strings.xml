@@ -6,4 +6,10 @@
     <string name="android">Андроид</string>
     <string name="item">Пункт</string>
     <string name="lab">Лаб</string>
+    <string name="planet">Планета</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="button">Кнопка</string>
+    <string name="you_clicked">Вы нажали</string>
+    <string name="text_decision">Вы уверены что хотите сделать выбор?</string>
 </resources>

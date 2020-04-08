@@ -20,6 +20,11 @@ class HomeFragment : Fragment(), OnListItemClickListener {
     private lateinit var labs: ArrayList<ListItem>
     private lateinit var fragments: ArrayList<Fragment>
 
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        retainInstance = true
+    }
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -67,15 +72,15 @@ class HomeFragment : Fragment(), OnListItemClickListener {
 
     private fun fragmentsInit() {
         fragments = ArrayList()
-        fragments.add(Lab1Fragment())
-        fragments.add(Lab2Fragment())
-        fragments.add(Lab3Fragment())
-        fragments.add(Lab4Fragment())
-        fragments.add(Lab5Fragment())
-        fragments.add(Lab6Fragment())
-        fragments.add(Lab7Fragment())
-        fragments.add(Lab8Fragment())
-        fragments.add(Lab9Fragment())
-        fragments.add(Lab10Fragment())
+        fragments.add(LabFragment1(labs[0]))
+        fragments.add(LabFragment2(labs[1]))
+        fragments.add(LabFragment3(labs[2]))
+        fragments.add(LabFragment4(labs[3]))
+        fragments.add(LabFragment5(labs[4]))
+        fragments.add(LabFragment6(labs[5]))
+        fragments.add(LabFragment7(labs[6]))
+        fragments.add(LabFragment8(labs[7]))
+        fragments.add(LabFragment9(labs[8]))
+        fragments.add(LabFragment10(labs[9]))
     }
 }
