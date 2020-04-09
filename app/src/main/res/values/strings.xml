@@ -39,6 +39,14 @@
     <string name="text_view" translatable="false">TextView</string>
     <string name="multi" translatable="false">Multi</string>
 
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="check">Check</string>
+    <string name="charging_on">Mobile is charging on</string>
+    <string name="no_charge">Mobile does not charge</string>
+    <string name="usb" translatable="false">USB</string>
+    <string name="ac" translatable="false">AC</string>
+
     <string-array name="lab_title">
         <item>Alert Dialog</item>
         <item>Animations</item>

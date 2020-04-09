@@ -10,10 +10,10 @@
         android:id="@+id/text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/spacing_large"
+        android:layout_marginTop="@dimen/spacing_xlarge"
         android:text="@string/some_text"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -29,19 +29,17 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
-        android:layout_height="@dimen/spacing_128"
-        android:layout_marginTop="@dimen/spacing_large"
+        android:layout_height="wrap_content"
         android:contentDescription="@string/planet"
         android:src="@drawable/code"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text2"
-        app:layout_constraintVertical_chainStyle="packed" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout1"
         style="@style/TextInputLayout"
-        android:layout_width="match_parent"
+        android:layout_width="@dimen/no_spacing"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/spacing_xlarge"
         android:layout_marginTop="@dimen/spacing_small"
@@ -50,8 +48,8 @@
         android:hint="@string/username"
         app:layout_constraintBottom_toTopOf="@+id/textInputLayout2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/text2"
         app:layout_constraintVertical_chainStyle="packed">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -63,7 +61,7 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout2"
         style="@style/TextInputLayout"
-        android:layout_width="match_parent"
+        android:layout_width="@dimen/no_spacing"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/spacing_xlarge"
         android:layout_marginTop="@dimen/spacing_small"
@@ -72,7 +70,7 @@
         android:hint="@string/password"
         app:layout_constraintBottom_toTopOf="@+id/materialButton1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout1"
         app:passwordToggleEnabled="true">
 
