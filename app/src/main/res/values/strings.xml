@@ -47,6 +47,16 @@
     <string name="usb" translatable="false">USB</string>
     <string name="ac" translatable="false">AC</string>
 
+    <string name="turn_on">Turn on</string>
+    <string name="turn_off">Turn off</string>
+    <string name="get_visible">Get visible</string>
+    <string name="list_devices">List devices</string>
+    <string name="paired_devices">Paired devices</string>
+    <string name="turned_on">Turned on</string>
+    <string name="turned_off">Turned off</string>
+    <string name="already_on">Already on</string>
+    <string name="showing_paired_devices">Showing Paired devices</string>
+
     <string-array name="lab_title">
         <item>Alert Dialog</item>
         <item>Animations</item>

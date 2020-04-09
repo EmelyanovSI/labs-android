@@ -37,4 +37,13 @@
     <string name="check">Проверка</string>
     <string name="charging_on">Мобильный телефон заряжается через</string>
     <string name="no_charge">Мобильный не заряжается</string>
+    <string name="turn_on">Включить</string>
+    <string name="turn_off">Выключить</string>
+    <string name="get_visible">Сделать видимым</string>
+    <string name="list_devices">Список устройств</string>
+    <string name="paired_devices">Сопряженные устройства</string>
+    <string name="turned_on">Включен</string>
+    <string name="turned_off">Выключен</string>
+    <string name="already_on">Уже включен</string>
+    <string name="showing_paired_devices">Отображение Сопряженных Устройств</string>
 </resources>
