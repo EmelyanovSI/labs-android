@@ -46,4 +46,10 @@
     <string name="turned_off">Выключен</string>
     <string name="already_on">Уже включен</string>
     <string name="showing_paired_devices">Отображение Сопряженных Устройств</string>
+    <string name="alert">Тревога</string>
+    <string name="text_camera_access">Приложение должно получить доступ к камере.</string>
+    <string name="dont_allow">Не разрешать</string>
+    <string name="allow">Разрешить</string>
+    <string name="settings">Настройки</string>
+    <string name="open_camera">Открыть камеру</string>
 </resources>
