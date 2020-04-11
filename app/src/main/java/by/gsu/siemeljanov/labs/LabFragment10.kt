@@ -25,6 +25,6 @@ class LabFragment10(private val lab: ListItem) : Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        text.text = lab.title
+        text1.text = lab.title
     }
 }

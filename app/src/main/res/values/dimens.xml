@@ -6,4 +6,6 @@
     <dimen name="spacing_large">16dp</dimen>
     <dimen name="spacing_small">8dp</dimen>
     <dimen name="no_spacing">0dp</dimen>
+
+    <dimen name="font_size_xlarge">32sp</dimen>
 </resources>
