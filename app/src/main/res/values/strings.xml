@@ -84,5 +84,44 @@
         <item>Custom Fonts</item>
 
         <item>Data Backup</item>
+        <item>Facebook Integration</item>
+        <item>Gestures</item>
+        <item>Google Maps</item>
+        <item>Image Effects</item>
+        <item>ImageSwitcher</item>
+        <item>Internal Storage</item>
+        <item>JSON Parser</item>
+        <item>LinkedIn Integration</item>
+        <item>Loading Spinner</item>
+
+        <item>Localization</item>
+        <item>Login Screen</item>
+        <item>MediaPlayer</item>
+        <item>Multitouch</item>
+        <item>Navigation</item>
+        <item>Network Connection</item>
+        <item>PHP/MySQL</item>
+        <item>Progress Circle</item>
+        <item>ProgressBar</item>
+        <item>Push Notification</item>
+
+        <item>RenderScript</item>
+        <item>RSS Reader</item>
+        <item>Screen Cast</item>
+        <item>Sensors</item>
+        <item>Session Management</item>
+        <item>Shared Preferences</item>
+        <item>Spelling Checker</item>
+        <item>SQLite Database</item>
+        <item>Support Library</item>
+        <item>Testing</item>
+
+        <item>Text to Speech</item>
+        <item>TextureView</item>
+        <item>Twitter Integration</item>
+        <item>WebView Layout</item>
+        <item>Wi-Fi</item>
+        <item>Widgets</item>
+        <item>XML Parsers</item>
     </string-array>
 </resources>

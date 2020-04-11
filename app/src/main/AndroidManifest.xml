@@ -15,7 +15,7 @@
 
     <application
         android:allowBackup="true"
-        android:backupAgent=".labs.lab10.AndroidLabsBackUp"
+        android:backupAgent=".labs.lab11.AndroidLabsBackUp"
         android:fullBackupContent="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
