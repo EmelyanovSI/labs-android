@@ -81,5 +81,6 @@ class HomeFragment : Fragment(), OnListItemClickListener {
         fragments.add(LabFragment8(labs[7]))
         fragments.add(LabFragment9(labs[8]))
         fragments.add(LabFragment10(labs[9]))
+        fragments.add(LabFragment11(labs[10]))
     }
 }

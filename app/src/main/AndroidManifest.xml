@@ -15,11 +15,14 @@
 
     <application
         android:allowBackup="true"
+        android:backupAgent=".labs.lab10.AndroidLabsBackUp"
+        android:fullBackupContent="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,6 +30,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="com.google.android.backup.api_key"
+            android:value="AEdPqrEAAAAIPdjSOfT9GwUcPLcZeHnportCTYO4OHuCn21G6A" />
+
     </application>
 
 </manifest>

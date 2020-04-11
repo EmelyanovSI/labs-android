@@ -82,5 +82,7 @@
         <item>Camera</item>
         <item>Clipboard</item>
         <item>Custom Fonts</item>
+
+        <item>Data Backup</item>
     </string-array>
 </resources>
