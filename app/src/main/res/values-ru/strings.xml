@@ -52,4 +52,8 @@
     <string name="allow">Разрешить</string>
     <string name="settings">Настройки</string>
     <string name="open_camera">Открыть камеру</string>
+    <string name="copy_text">Скопировать текст</string>
+    <string name="paste_text">Вставить текст</string>
+    <string name="copied_text">Текст скопирован</string>
+    <string name="pasted_text">Текст вставлен</string>
 </resources>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="spacing_256">256dp</dimen>
     <dimen name="spacing_128">128dp</dimen>
     <dimen name="spacing_xlarge">32dp</dimen>
     <dimen name="spacing_large">16dp</dimen>
