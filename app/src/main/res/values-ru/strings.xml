@@ -56,4 +56,6 @@
     <string name="paste_text">Вставить текст</string>
     <string name="copied_text">Текст скопирован</string>
     <string name="pasted_text">Текст вставлен</string>
+    <string name="share">Поделиться</string>
+    <string name="share_image_using">Поделиться изображением с помощью</string>
 </resources>

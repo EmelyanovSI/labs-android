@@ -71,6 +71,9 @@
     <string name="copied_text">Copied text</string>
     <string name="pasted_text">Pasted text</string>
 
+    <string name="share">Share</string>
+    <string name="share_image_using">Share image using</string>
+
     <string-array name="lab_title">
         <item>Alert Dialog</item>
         <item>Animations</item>
