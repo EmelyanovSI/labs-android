@@ -74,6 +74,10 @@
     <string name="share">Share</string>
     <string name="share_image_using">Share image using</string>
 
+    <string name="title_activity_maps">Map</string>
+    <string name="sydney">Marker in Sydney</string>
+    <string name="open_map">Open Map</string>
+
     <string-array name="lab_title">
         <item>Alert Dialog</item>
         <item>Animations</item>
@@ -127,4 +131,6 @@
         <item>Widgets</item>
         <item>XML Parsers</item>
     </string-array>
+
+    <string name="google_backup_key" translatable="false">AEdPqrEAAAAIPdjSOfT9GwUcPLcZeHnportCTYO4OHuCn21G6A</string>
 </resources>

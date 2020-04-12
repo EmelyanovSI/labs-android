@@ -58,4 +58,7 @@
     <string name="pasted_text">Текст вставлен</string>
     <string name="share">Поделиться</string>
     <string name="share_image_using">Поделиться изображением с помощью</string>
+    <string name="title_activity_maps">Карта</string>
+    <string name="sydney">Маркер в Сиднее</string>
+    <string name="open_map">Открыть карту</string>
 </resources>
