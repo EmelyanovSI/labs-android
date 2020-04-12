@@ -76,4 +76,5 @@
     <string name="text_error">Ошибка синтаксического анализа JSON:</string>
     <string name="text_could_not_get">Не удалось получить JSON с сервера!</string>
     <string name="text_downloading">JSON Data загружается</string>
+    <string name="download">Загрузить</string>
 </resources>

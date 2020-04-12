@@ -26,6 +26,14 @@ class LabFragment20(private val lab: ListItem) : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         text1.text = lab.title
+        progressBar.visibility = View.GONE
+        materialButton.setOnClickListener {
+            if (progressBar.visibility == View.GONE) {
+                progressBar.visibility = View.VISIBLE
+            } else {
+                progressBar.visibility = View.GONE
+            }
+        }
     }
 
 }
