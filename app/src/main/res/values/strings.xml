@@ -10,7 +10,7 @@
 
     <string name="yes">Yes</string>
     <string name="no">No</string>
-    <string name="planet">Planet</string>
+    <string name="code">Code</string>
     <string name="you_clicked">You clicked</string>
     <string name="text_decision">Are you sure, you want to make decision?</string>
 
@@ -84,6 +84,9 @@
     <string name="red">Red</string>
     <string name="green">Green</string>
     <string name="blue">Blue</string>
+
+    <string name="left" translatable="false"><![CDATA[<]]></string>
+    <string name="right" translatable="false"><![CDATA[>]]></string>
 
     <string-array name="lab_title">
         <item>Alert Dialog</item>

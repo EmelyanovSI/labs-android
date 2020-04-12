@@ -31,7 +31,7 @@
         android:layout_width="@dimen/no_spacing"
         android:layout_height="@dimen/no_spacing"
         android:layout_marginTop="8dp"
-        android:contentDescription="@string/planet"
+        android:contentDescription="@string/code"
         android:scaleType="matrix"
         android:src="@drawable/code"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -41,7 +41,7 @@
             android:layout_height="@dimen/spacing_128"
             android:layout_marginTop="@dimen/spacing_xlarge"
             android:layout_marginBottom="@dimen/spacing_xlarge"
-            android:contentDescription="@string/planet"
+            android:contentDescription="@string/code"
             android:src="@drawable/code"
             app:layout_constraintBottom_toTopOf="@+id/textInputLayout1"
             app:layout_constraintEnd_toEndOf="parent"

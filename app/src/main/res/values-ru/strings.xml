@@ -6,7 +6,6 @@
     <string name="android">Андроид</string>
     <string name="item">Пункт</string>
     <string name="lab">Лаб</string>
-    <string name="planet">Планета</string>
     <string name="yes">Да</string>
     <string name="no">Нет</string>
     <string name="button">Кнопка</string>
@@ -67,4 +66,5 @@
     <string name="red">Красный</string>
     <string name="green">Зеленый</string>
     <string name="blue">Синий</string>
+    <string name="code">Код</string>
 </resources>

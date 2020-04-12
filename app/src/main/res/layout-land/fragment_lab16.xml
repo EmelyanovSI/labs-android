@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.lab20.LabFragment16">
+    tools:context=".fragments.lab20.LabFragment16"
+    tools:layout_editor_absoluteY="81dp">
 
     <TextView
         android:id="@+id/text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/spacing_xlarge"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="@dimen/spacing_large"
+        app:layout_constraintEnd_toEndOf="@+id/imageSwitcher"
+        app:layout_constraintStart_toStartOf="@+id/imageSwitcher"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="@string/some_text" />
 
@@ -21,7 +22,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/spacing_small"
+        android:layout_marginBottom="@dimen/spacing_small"
         android:text="@string/laboratory_work"
+        app:layout_constraintBottom_toTopOf="@+id/imageSwitcher"
         app:layout_constraintEnd_toEndOf="@+id/text1"
         app:layout_constraintStart_toStartOf="@+id/text1"
         app:layout_constraintTop_toBottomOf="@+id/text1" />
@@ -31,33 +34,33 @@
         android:layout_width="@dimen/no_spacing"
         android:layout_height="@dimen/no_spacing"
         android:contentDescription="@string/code"
-        app:layout_constraintBottom_toTopOf="@+id/materialButton2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/materialButton1" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/materialButton2"
+        app:layout_constraintStart_toEndOf="@+id/materialButton1"
+        app:layout_constraintTop_toBottomOf="@+id/text2" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/materialButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/spacing_xlarge"
-        android:layout_marginBottom="@dimen/spacing_small"
+        android:layout_marginStart="@dimen/spacing_small"
+        android:layout_marginEnd="@dimen/spacing_small"
         android:text="@string/left"
-        app:layout_constraintBottom_toTopOf="@+id/imageSwitcher"
-        app:layout_constraintEnd_toEndOf="@+id/imageSwitcher"
-        app:layout_constraintStart_toStartOf="@+id/imageSwitcher"
-        app:layout_constraintTop_toBottomOf="@+id/text2" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageSwitcher"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageSwitcher" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/materialButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/spacing_small"
-        android:layout_marginBottom="@dimen/spacing_xlarge"
+        android:layout_marginStart="@dimen/spacing_small"
+        android:layout_marginEnd="@dimen/spacing_small"
         android:text="@string/right"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/imageSwitcher"
-        app:layout_constraintStart_toStartOf="@+id/imageSwitcher"
-        app:layout_constraintTop_toBottomOf="@+id/imageSwitcher" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageSwitcher"
+        app:layout_constraintTop_toTopOf="@+id/imageSwitcher" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
