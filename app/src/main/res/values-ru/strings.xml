@@ -61,4 +61,10 @@
     <string name="title_activity_maps">Карта</string>
     <string name="sydney">Маркер в Сиднее</string>
     <string name="open_map">Открыть карту</string>
+    <string name="gray">Серый</string>
+    <string name="bright">Яркий</string>
+    <string name="dark">Темный</string>
+    <string name="red">Красный</string>
+    <string name="green">Зеленый</string>
+    <string name="blue">Синий</string>
 </resources>
