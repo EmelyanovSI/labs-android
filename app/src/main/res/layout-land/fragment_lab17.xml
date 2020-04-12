@@ -19,11 +19,10 @@
             android:id="@+id/text1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/spacing_xlarge"
+            android:layout_marginTop="@dimen/spacing_large"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_chainStyle="packed"
             tools:text="@string/some_text" />
 
         <TextView
@@ -38,29 +37,27 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="@dimen/spacing_128"
+            android:layout_width="0dp"
             android:layout_height="@dimen/spacing_128"
             android:layout_marginTop="@dimen/spacing_small"
             android:contentDescription="@string/code"
             android:src="@drawable/code"
-            app:layout_constraintBottom_toTopOf="@+id/textInputLayout1"
-            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text2" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayout1"
             style="@style/TextInputLayout"
-            android:layout_width="match_parent"
+            android:layout_width="@dimen/no_spacing"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/spacing_xlarge"
-            android:layout_marginTop="@dimen/spacing_xlarge"
             android:layout_marginEnd="@dimen/spacing_xlarge"
+            android:layout_marginBottom="@dimen/spacing_xlarge"
             android:hint="@string/enter_text"
-            app:layout_constraintEnd_toEndOf="@+id/imageView"
-            app:layout_constraintStart_toStartOf="@+id/imageView"
-            app:layout_constraintTop_toBottomOf="@+id/imageView"
-            app:layout_constraintVertical_chainStyle="packed">
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/text2">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -73,13 +70,13 @@
             android:id="@+id/text3"
             android:layout_width="@dimen/no_spacing"
             android:layout_height="@dimen/no_spacing"
-            android:layout_marginTop="@dimen/spacing_large"
-            android:layout_marginBottom="@dimen/spacing_large"
+            android:layout_marginStart="@dimen/spacing_small"
+            android:layout_marginBottom="@dimen/spacing_small"
             android:text="@string/read"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/textInputLayout1"
-            app:layout_constraintStart_toStartOf="@+id/textInputLayout1"
-            app:layout_constraintTop_toBottomOf="@+id/materialButton1" />
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/materialButton1"
@@ -88,7 +85,7 @@
             android:layout_marginTop="@dimen/spacing_small"
             android:text="@string/save"
             app:layout_constraintEnd_toStartOf="@+id/materialButton2"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textInputLayout1"
             app:layout_constraintTop_toBottomOf="@+id/textInputLayout1" />
 
         <com.google.android.material.button.MaterialButton
@@ -97,7 +94,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/spacing_small"
             android:text="@string/load"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textInputLayout1"
             app:layout_constraintStart_toEndOf="@+id/materialButton1"
             app:layout_constraintTop_toBottomOf="@+id/textInputLayout1" />
 

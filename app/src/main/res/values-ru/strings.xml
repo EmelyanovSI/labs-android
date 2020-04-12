@@ -67,4 +67,10 @@
     <string name="green">Зеленый</string>
     <string name="blue">Синий</string>
     <string name="code">Код</string>
+    <string name="enter_text">Введите текст</string>
+    <string name="read">Читать</string>
+    <string name="save">Сохранить</string>
+    <string name="load">Загрузить</string>
+    <string name="file_saved">Файл сохранен</string>
+    <string name="file_loaded">Файл загружен</string>
 </resources>

@@ -88,6 +88,13 @@
     <string name="left" translatable="false"><![CDATA[<]]></string>
     <string name="right" translatable="false"><![CDATA[>]]></string>
 
+    <string name="enter_text">Enter text</string>
+    <string name="read">Read</string>
+    <string name="save">Save</string>
+    <string name="load">Load</string>
+    <string name="file_saved">File saved</string>
+    <string name="file_loaded">File loaded</string>
+
     <string-array name="lab_title">
         <item>Alert Dialog</item>
         <item>Animations</item>
