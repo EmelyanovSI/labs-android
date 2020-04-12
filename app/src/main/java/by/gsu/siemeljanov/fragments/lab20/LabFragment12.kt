@@ -31,7 +31,7 @@ class LabFragment12(private val lab: ListItem) : Fragment() {
         text1.text = lab.title
         materialButton.setOnClickListener {
             val sharingIntent = Intent(Intent.ACTION_SEND)
-            val screenshotUri = Uri.parse("android.resource://by.gsu.siemeljanov/*")
+            val screenshotUri = Uri.parse("android.resource://by.gsu.siemeljanov/drawable/code")
             try {
                 val stream = context?.contentResolver?.openInputStream(screenshotUri)
             } catch (e: FileNotFoundException) {
