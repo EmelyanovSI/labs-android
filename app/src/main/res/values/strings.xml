@@ -103,6 +103,12 @@
 
     <string name="sys_lang">Change system language(ru|en)</string>
 
+    <string name="login">Login</string>
+    <string name="text_attempts">Attempts left:</string>
+    <string name="cancel">Cancel</string>
+    <string name="wrong_credentials">Wrong Credentials</string>
+    <string name="text_redirecting">Redirecting…</string>
+
     <string-array name="lab_title">
         <item>Alert Dialog</item>
         <item>Animations</item>
