@@ -95,6 +95,10 @@
     <string name="file_saved">File saved</string>
     <string name="file_loaded">File loaded</string>
 
+    <string name="text_error">JSON parsing error:</string>
+    <string name="text_could_not_get">Could not get JSON from server!</string>
+    <string name="text_downloading">JSON Data is downloading</string>
+
     <string-array name="lab_title">
         <item>Alert Dialog</item>
         <item>Animations</item>

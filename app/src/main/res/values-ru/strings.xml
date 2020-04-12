@@ -73,4 +73,7 @@
     <string name="load">Загрузить</string>
     <string name="file_saved">Файл сохранен</string>
     <string name="file_loaded">Файл загружен</string>
+    <string name="text_error">Ошибка синтаксического анализа JSON:</string>
+    <string name="text_could_not_get">Не удалось получить JSON с сервера!</string>
+    <string name="text_downloading">JSON Data загружается</string>
 </resources>
