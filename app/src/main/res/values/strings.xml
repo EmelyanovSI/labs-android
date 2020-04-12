@@ -101,6 +101,8 @@
 
     <string name="download">Download</string>
 
+    <string name="sys_lang">Change system language(ru|en)</string>
+
     <string-array name="lab_title">
         <item>Alert Dialog</item>
         <item>Animations</item>

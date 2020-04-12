@@ -77,4 +77,5 @@
     <string name="text_could_not_get">Не удалось получить JSON с сервера!</string>
     <string name="text_downloading">JSON Data загружается</string>
     <string name="download">Загрузить</string>
+    <string name="sys_lang">Измените язык системы(рус|англ)</string>
 </resources>
