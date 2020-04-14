@@ -81,6 +81,6 @@
     <string name="login">Логин</string>
     <string name="cancel">Отмена</string>
     <string name="wrong_credentials">Неправильные учетные данные</string>
-    <string name="text_redirecting">Перенаправление...</string>
+    <string name="text_redirecting">Перенаправление…</string>
     <string name="text_attempts">Осталось попыток:</string>
 </resources>

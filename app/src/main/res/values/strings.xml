@@ -109,6 +109,12 @@
     <string name="wrong_credentials">Wrong Credentials</string>
     <string name="text_redirecting">Redirecting…</string>
 
+    <string name="next" translatable="false"><![CDATA[>]]></string>
+    <string name="rewind" translatable="false"><![CDATA[<<]]></string>
+    <string name="forward" translatable="false"><![CDATA[>>]]></string>
+    <string name="pause" translatable="false">||</string>
+    <string name="song_name" translatable="false">song.mp3</string>
+
     <string-array name="lab_title">
         <item>Alert Dialog</item>
         <item>Animations</item>
