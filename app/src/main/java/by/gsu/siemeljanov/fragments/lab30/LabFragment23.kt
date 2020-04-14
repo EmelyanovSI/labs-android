@@ -15,12 +15,12 @@ import java.util.concurrent.TimeUnit
 class LabFragment23(private val lab: ListItem) : Fragment() {
 
     private lateinit var mediaPlayer: MediaPlayer
-    private var myHandler: Handler = Handler()
+    private lateinit var myHandler: Handler
     private var startTime = 0
     private var finalTime = 0
     private var oneTimeOnly = 0
-    private var forwardTime = 5000
-    private var backwardTime = 5000
+    private var forwardTime = 0
+    private var backwardTime = 0
     private val time = "%d min, %d sec"
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -38,6 +38,12 @@ class LabFragment23(private val lab: ListItem) : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         text1.text = lab.title
+        startTime = 0
+        finalTime = 0
+        oneTimeOnly = 0
+        forwardTime = 5000
+        backwardTime = 5000
+        myHandler = Handler()
         mediaPlayer = MediaPlayer.create(context, R.raw.song)
         materialButton2.isEnabled = false
         materialButton1.setOnClickListener {
